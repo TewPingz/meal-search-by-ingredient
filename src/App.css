@@ -1,0 +1,35 @@
+#root {
+  max-width: 100%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+}
+
+.ingredient-section {
+  justify-content: left;
+  text-align: left;
+  width: 50%; 
+  font-size: small;
+}
+
+.ingredient-section button {
+  width: 30%;
+  height: 40px;
+  margin: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.recipe-section {
+  display: grid;
+  row-gap: 5px;
+  column-gap: 5px;
+  grid-template-columns: auto auto auto;
+  height: 100%;
+  width: 60%;
+}
+
+.recipe-card img {
+  width: 240px;
+  height: 240px;
+  border-radius: 5px;
+}
